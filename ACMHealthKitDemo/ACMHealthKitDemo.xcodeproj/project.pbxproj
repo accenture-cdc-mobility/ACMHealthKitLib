@@ -14,6 +14,12 @@
 		35001E681A8C8F2C00AC53CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35001E671A8C8F2C00AC53CC /* Images.xcassets */; };
 		35001E6B1A8C8F2C00AC53CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35001E691A8C8F2C00AC53CC /* LaunchScreen.xib */; };
 		35001E771A8C8F2C00AC53CC /* ACMHealthKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35001E761A8C8F2C00AC53CC /* ACMHealthKitDemoTests.m */; };
+		35001E8D1A8C8F4C00AC53CC /* AccHealthDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 35001E821A8C8F4C00AC53CC /* AccHealthDataCollector.m */; };
+		35001E8E1A8C8F4C00AC53CC /* AccHealthDataOuter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35001E841A8C8F4C00AC53CC /* AccHealthDataOuter.m */; };
+		35001E8F1A8C8F4C00AC53CC /* AccHealthDataRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 35001E861A8C8F4C00AC53CC /* AccHealthDataRegister.m */; };
+		35001E901A8C8F4C00AC53CC /* HealthDataWithUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 35001E881A8C8F4C00AC53CC /* HealthDataWithUnit.m */; };
+		35001E911A8C8F4C00AC53CC /* HKHealthStore+SampleType.m in Sources */ = {isa = PBXBuildFile; fileRef = 35001E8A1A8C8F4C00AC53CC /* HKHealthStore+SampleType.m */; };
+		35001E921A8C8F4C00AC53CC /* NSSet+HealthKitPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 35001E8C1A8C8F4C00AC53CC /* NSSet+HealthKitPermission.m */; };
 		35001E951A8C911700AC53CC /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35001E941A8C911700AC53CC /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +47,18 @@
 		35001E701A8C8F2C00AC53CC /* ACMHealthKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACMHealthKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35001E751A8C8F2C00AC53CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35001E761A8C8F2C00AC53CC /* ACMHealthKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACMHealthKitDemoTests.m; sourceTree = "<group>"; };
+		35001E811A8C8F4C00AC53CC /* AccHealthDataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccHealthDataCollector.h; sourceTree = "<group>"; };
+		35001E821A8C8F4C00AC53CC /* AccHealthDataCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccHealthDataCollector.m; sourceTree = "<group>"; };
+		35001E831A8C8F4C00AC53CC /* AccHealthDataOuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccHealthDataOuter.h; sourceTree = "<group>"; };
+		35001E841A8C8F4C00AC53CC /* AccHealthDataOuter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccHealthDataOuter.m; sourceTree = "<group>"; };
+		35001E851A8C8F4C00AC53CC /* AccHealthDataRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccHealthDataRegister.h; sourceTree = "<group>"; };
+		35001E861A8C8F4C00AC53CC /* AccHealthDataRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccHealthDataRegister.m; sourceTree = "<group>"; };
+		35001E871A8C8F4C00AC53CC /* HealthDataWithUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthDataWithUnit.h; sourceTree = "<group>"; };
+		35001E881A8C8F4C00AC53CC /* HealthDataWithUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthDataWithUnit.m; sourceTree = "<group>"; };
+		35001E891A8C8F4C00AC53CC /* HKHealthStore+SampleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HKHealthStore+SampleType.h"; sourceTree = "<group>"; };
+		35001E8A1A8C8F4C00AC53CC /* HKHealthStore+SampleType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HKHealthStore+SampleType.m"; sourceTree = "<group>"; };
+		35001E8B1A8C8F4C00AC53CC /* NSSet+HealthKitPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HealthKitPermission.h"; sourceTree = "<group>"; };
+		35001E8C1A8C8F4C00AC53CC /* NSSet+HealthKitPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HealthKitPermission.m"; sourceTree = "<group>"; };
 		35001E931A8C911700AC53CC /* ACMHealthKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ACMHealthKitDemo.entitlements; sourceTree = "<group>"; };
 		35001E941A8C911700AC53CC /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -67,6 +85,7 @@
 		35001E4E1A8C8F2C00AC53CC = {
 			isa = PBXGroup;
 			children = (
+				35001E801A8C8F4C00AC53CC /* Health */,
 				35001E591A8C8F2C00AC53CC /* ACMHealthKitDemo */,
 				35001E731A8C8F2C00AC53CC /* ACMHealthKitDemoTests */,
 				35001E581A8C8F2C00AC53CC /* Products */,
@@ -123,6 +142,25 @@
 				35001E751A8C8F2C00AC53CC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35001E801A8C8F4C00AC53CC /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				35001E811A8C8F4C00AC53CC /* AccHealthDataCollector.h */,
+				35001E821A8C8F4C00AC53CC /* AccHealthDataCollector.m */,
+				35001E831A8C8F4C00AC53CC /* AccHealthDataOuter.h */,
+				35001E841A8C8F4C00AC53CC /* AccHealthDataOuter.m */,
+				35001E851A8C8F4C00AC53CC /* AccHealthDataRegister.h */,
+				35001E861A8C8F4C00AC53CC /* AccHealthDataRegister.m */,
+				35001E871A8C8F4C00AC53CC /* HealthDataWithUnit.h */,
+				35001E881A8C8F4C00AC53CC /* HealthDataWithUnit.m */,
+				35001E891A8C8F4C00AC53CC /* HKHealthStore+SampleType.h */,
+				35001E8A1A8C8F4C00AC53CC /* HKHealthStore+SampleType.m */,
+				35001E8B1A8C8F4C00AC53CC /* NSSet+HealthKitPermission.h */,
+				35001E8C1A8C8F4C00AC53CC /* NSSet+HealthKitPermission.m */,
+			);
+			path = Health;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +270,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				35001E631A8C8F2C00AC53CC /* ViewController.m in Sources */,
+				35001E8D1A8C8F4C00AC53CC /* AccHealthDataCollector.m in Sources */,
+				35001E911A8C8F4C00AC53CC /* HKHealthStore+SampleType.m in Sources */,
+				35001E921A8C8F4C00AC53CC /* NSSet+HealthKitPermission.m in Sources */,
+				35001E8E1A8C8F4C00AC53CC /* AccHealthDataOuter.m in Sources */,
 				35001E601A8C8F2C00AC53CC /* AppDelegate.m in Sources */,
+				35001E8F1A8C8F4C00AC53CC /* AccHealthDataRegister.m in Sources */,
+				35001E901A8C8F4C00AC53CC /* HealthDataWithUnit.m in Sources */,
 				35001E5D1A8C8F2C00AC53CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +476,6 @@
 				35001E7C1A8C8F2C00AC53CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		35001E7D1A8C8F2C00AC53CC /* Build configuration list for PBXNativeTarget "ACMHealthKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -441,7 +484,6 @@
 				35001E7F1A8C8F2C00AC53CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

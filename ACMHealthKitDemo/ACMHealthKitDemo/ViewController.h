@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <HealthKit/HealthKit.h>
-#include "AccHealthDataCollector.h"
+#import "AccHealthDataCollector.h"
 
 @interface ViewController : UIViewController<AccHealthDataCollectorDelegate>
 
